@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1611132034 source:/home/mint/myCode/DesignPatterns/TemplateMthod/main.cpp
+	<iostream>
+	"TestPaper.h"
+	"StudentTest.h"
+
+1611132658 /home/mint/myCode/DesignPatterns/TemplateMthod/include/TestPaper.h
+	<string>
+	<iostream>
+
+1611132303 /home/mint/myCode/DesignPatterns/TemplateMthod/include/StudentTest.h
+	<TestPaper.h>
+
+1611132498 source:/home/mint/myCode/DesignPatterns/TemplateMthod/src/StudentTest.cpp
+	"StudentTest.h"
+

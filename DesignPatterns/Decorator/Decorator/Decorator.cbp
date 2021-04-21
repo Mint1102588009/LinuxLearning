@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Decorator" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Decorator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Decorator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/Component.h" />
+		<Unit filename="include/ConcreteComponent.h" />
+		<Unit filename="include/ConcreteDecoratorA.h" />
+		<Unit filename="include/ConcreteDecoratorB.h" />
+		<Unit filename="include/Decorator.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Component.cpp" />
+		<Unit filename="src/ConcreteComponent.cpp" />
+		<Unit filename="src/ConcreteDecoratorA.cpp" />
+		<Unit filename="src/ConcreteDecoratorB.cpp" />
+		<Unit filename="src/Decorator.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
