@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1611137270 source:/home/mint/myCode/DesignPatterns/Strategy/main.cpp
+	<iostream>
+	"Context.h"
+	"Strategy.h"
+	"ConcreteStrategyA.h"
+	"ConcreteStrategyB.h"
+
+1611137324 /home/mint/myCode/DesignPatterns/Strategy/include/Context.h
+	"Strategy.h"
+	<iostream>
+
+1611136751 /home/mint/myCode/DesignPatterns/Strategy/include/Strategy.h
+
+1611136901 /home/mint/myCode/DesignPatterns/Strategy/include/ConcreteStrategyA.h
+	<Strategy.h>
+	<iostream>
+
+1611137036 /home/mint/myCode/DesignPatterns/Strategy/include/ConcreteStrategyB.h
+	<Strategy.h>
+	<iostream>
+
+1611136872 source:/home/mint/myCode/DesignPatterns/Strategy/src/ConcreteStrategyA.cpp
+	"ConcreteStrategyA.h"
+
+1611137060 source:/home/mint/myCode/DesignPatterns/Strategy/src/ConcreteStrategyB.cpp
+	"ConcreteStrategyB.h"
+

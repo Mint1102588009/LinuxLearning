@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1611336664 source:/home/mint/myCode/DesignPatterns/Prototype/main.cpp
+	<iostream>
+	"Client.h"
+
+1611336402 /home/mint/myCode/DesignPatterns/Prototype/include/Client.h
+	<string>
+	"Prototype.h"
+	<iostream>
+
+1611336408 /home/mint/myCode/DesignPatterns/Prototype/include/Prototype.h
+
+1611337404 source:/home/mint/myCode/DesignPatterns/Prototype/src/Client.cpp
+	"Client.h"
+
+1611335226 source:/home/mint/myCode/DesignPatterns/Prototype/src/Prototype.cpp
+	"Prototype.h"
+

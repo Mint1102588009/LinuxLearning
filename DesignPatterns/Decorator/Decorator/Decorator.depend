@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1611167740 source:/home/mint/myCode/DesignPatterns/Decorator/Decorator/main.cpp
+	<iostream>
+	"ConcreteComponent.h"
+	"ConcreteDecoratorA.h"
+	"ConcreteDecoratorB.h"
+
+1611165579 /home/mint/myCode/DesignPatterns/Decorator/Decorator/include/ConcreteComponent.h
+	<Component.h>
+	<iostream>
+
+1611165461 /home/mint/myCode/DesignPatterns/Decorator/Decorator/include/Component.h
+
+1611166572 /home/mint/myCode/DesignPatterns/Decorator/Decorator/include/ConcreteDecoratorA.h
+	<Decorator.h>
+	<iostream>
+
+1611167460 /home/mint/myCode/DesignPatterns/Decorator/Decorator/include/Decorator.h
+	<Component.h>
+	<iostream>
+
+1611167139 /home/mint/myCode/DesignPatterns/Decorator/Decorator/include/ConcreteDecoratorB.h
+	<Decorator.h>
+	<iostream>
+
+1611165422 source:/home/mint/myCode/DesignPatterns/Decorator/Decorator/src/Component.cpp
+	"Component.h"
+
+1611167577 source:/home/mint/myCode/DesignPatterns/Decorator/Decorator/src/ConcreteComponent.cpp
+	"ConcreteComponent.h"
+
+1611166927 source:/home/mint/myCode/DesignPatterns/Decorator/Decorator/src/ConcreteDecoratorA.cpp
+	"ConcreteDecoratorA.h"
+
+1611167208 source:/home/mint/myCode/DesignPatterns/Decorator/Decorator/src/ConcreteDecoratorB.cpp
+	"ConcreteDecoratorB.h"
+
+1611166268 source:/home/mint/myCode/DesignPatterns/Decorator/Decorator/src/Decorator.cpp
+	"Decorator.h"
+

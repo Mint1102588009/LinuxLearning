@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1611256815 source:/home/mint/myCode/DesignPatterns/Factory/main.cpp
+	<iostream>
+	"Calculate.h"
+	"AddFactory.h"
+
+1611255254 /home/mint/myCode/DesignPatterns/Factory/include/Calculate.h
+
+1611255762 /home/mint/myCode/DesignPatterns/Factory/include/AddFactory.h
+	<CalculateFactory.h>
+	"CalculateAdd.h"
+
+1611255626 /home/mint/myCode/DesignPatterns/Factory/include/CalculateFactory.h
+	"Calculate.h"
+
+1611256666 /home/mint/myCode/DesignPatterns/Factory/include/CalculateAdd.h
+	<Calculate.h>
+	<iostream>
+
+1611256488 source:/home/mint/myCode/DesignPatterns/Factory/src/AddFactory.cpp
+	"AddFactory.h"
+
+1611255178 source:/home/mint/myCode/DesignPatterns/Factory/src/Calculate.cpp
+	"Calculate.h"
+
+1611256632 source:/home/mint/myCode/DesignPatterns/Factory/src/CalculateAdd.cpp
+	"CalculateAdd.h"
+
+1611255484 source:/home/mint/myCode/DesignPatterns/Factory/src/CalculateFactory.cpp
+	"CalculateFactory.h"
+
+1611255946 source:/home/mint/myCode/DesignPatterns/Factory/src/CalculateSub.cpp
+	"CalculateSub.h"
+
+1611255914 /home/mint/myCode/DesignPatterns/Factory/include/CalculateSub.h
+	<Calculate.h>
+
+1611257100 source:/home/mint/myCode/DesignPatterns/Factory/src/SubFactory.cpp
+	"SubFactory.h"
+
+1611257065 /home/mint/myCode/DesignPatterns/Factory/include/SubFactory.h
+	<CalculateFactory.h>
+	"CalculateSub.h"
+
